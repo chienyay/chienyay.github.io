@@ -3,9 +3,10 @@
 		<title>Mainpage</title>
 		<style>
 		* {
-		  box-sizing: border-box;
-		  font-family: Helvetica ;
-		  color: #2d2d2d;
+			background-color: #ededed;
+			box-sizing: border-box;
+			font-family: Helvetica ;
+			color: #2d2d2d;
 		}
 
 		.menu{
@@ -42,10 +43,14 @@
 
 		.mainbody{
 			height: 75%;
-			background-color: white;
-			padding: 90px 125px;
+			padding: 90px 85px;
+			margin: 0px 40px;
 			float: left;
 			font-weight: lighter;
+			border-width: 0.5px;
+			border-style: none;
+			border-bottom-style: solid;
+			border-color: #707070;
 		}
 
 		.mainbody h1 {
@@ -77,6 +82,11 @@
 			float: left;
 			background-color: #EDEDED;
 			padding: 11px 40px;
+			display: block;
+		}
+
+		.footer a,p{
+			text-decoration: none;
 		}
 
 		.footer.left{
@@ -91,6 +101,10 @@
 			width: 33%;
 			padding-right: 40px;
 			text-align: right;
+		}
+
+		.footer a:hover {
+			color: #ffffff;
 		}
 
 		.clearfix{
@@ -110,7 +124,6 @@
 			<a href="https://chienyay.github.io/midterm/midterm_intro.html">Midterm</a>
 			<a href="https://chienyay.github.io/midterm/mainpage.html">Home</a>
 		</div>
-		<div class="clearfix">
 			<div class="mainbody">
 				<img
 				src="photo-01.png"
@@ -124,17 +137,17 @@
 				<p>My name is Janet(Chien-Ling, Liao), a student majoring in Sociology. Since I was young, I have had a broad interest and have aspired to be a well-rounded person. During times in university and working, I have gained knowledge of various fields and found a lack of expertise in Business. Also, I have a massive enthusiasm for different cultures and languages.</p>
 				<br>
 
-			</div>
 		</div>
 		<div class="row">
 			<div class="footer left">
-				<p><b>/E-mail/</b> s410774225@gm.ntpu.edu.tw</p>
-				<p><b>/Social Media/</b></p>
+				<p><b>/ E-mail / </b><a href="mailto:s410774225@gm.ntpu.edu.tw">s410774225@gm.ntpu.edu.tw</a></p>
+				<p><b>/ Social Media /</b></p>
 			</div>
 
 			<div class="footer middle">
-				<p><b>/Layout Inspiration/</b> Nicol Rider@ Wix</p>
-				<p><b>/Code Reference/</b> Class Examples & w3schools</p>			
+				<p><b>/ Layout Inspiration / </b> <a href="https://zh.wix.com/website-template/view/html/2846?siteId=9dabe0d0-1603-4a04-9bd6-7d9d9ca9e9cb&metaSiteId=3e8b1a18-1c30-41cf-87ac-e18816787ea8&originUrl=https%3A%2F%2Fzh.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fportfolio-cv&tpClick=view_button">Nicol Rider@ Wix</a></p>
+
+				<p><b>/ Code Reference /</b> Class Examples & w3schools</p>			
 			</div>
 
 			<div class="footer right">
@@ -142,6 +155,8 @@
 				<p>For Web Programming Class Midterm</p>			
 			</div>
 		</div>
+
+		<i class="fab fa-facebook-square"></i>
 	</body>
 
 </html>
