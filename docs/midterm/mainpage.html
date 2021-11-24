@@ -1,12 +1,13 @@
 <html>
 	<head>
-		<title>Mainpage</title>
+		<title>Mainpage | C.L., Liao</title>
 		<style>
 		* {
 			background-color: #ededed;
 			box-sizing: border-box;
 			font-family: Helvetica ;
 			color: #2d2d2d;
+			overflow: visible;
 		}
 
 		.menu{
@@ -42,15 +43,15 @@
 		}
 
 		.mainbody{
+			width: 100%;
 			height: 75%;
 			padding: 90px 85px;
 			margin: 0px 40px;
 			float: left;
 			font-weight: lighter;
-			border-width: 0.5px;
-			border-style: none;
-			border-bottom-style: solid;
-			border-color: #707070;
+			line-height: 1.6;
+			overflow: hidden;
+
 		}
 
 		.mainbody h1 {
@@ -78,11 +79,39 @@
 		  clear: both;
 		}
 
+		.scdbody{
+			overflow: hidden;
+			width: 100%;
+			float: left;
+			display: block;
+			padding: 0px 20px;
+			margin-left: 625px;
+			margin-bottom: 100px;
+			font-weight: lighter;
+			line-height: 175%;
+		}
+
+
+		.scdbody.right{
+			width: 58.5%;
+			border-width: 2px;
+			border-style: none;
+			border-left-style: solid;
+			border-color: #707070;
+			overflow: hidden;
+		}
+
+
 		.footer{
 			float: left;
 			background-color: #EDEDED;
-			padding: 11px 40px;
+			padding: 5px 40px;
 			display: block;
+			border-width: 0.5px;
+			border-style: none;
+			border-top-style: solid;
+			border-color: #707070;
+			overflow: hidden;
 		}
 
 		.footer a,p{
@@ -118,11 +147,11 @@
 	<body>
 		
 		<div class="menu">
-			<h1>Chien-Ling, Liao</h1>									
-			<a href="#">Projects</a>
-			<a href="#">Resume</a>
-			<a href="https://chienyay.github.io/midterm/midterm_intro.html">Midterm</a>
-			<a href="https://chienyay.github.io/midterm/mainpage.html">Home</a>
+			<h1>Chien-Ling, Liao</h1>
+			<a href="mainpage.html#contact_info">Contact</a>									
+			<a href="project.html">Projects</a>
+			<a href="resume.html">Resume</a>
+			<a href="mainpage.html">Home</a>
 		</div>
 			<div class="mainbody">
 				<img
@@ -135,28 +164,52 @@
 				<h3>A sneak peek of me</h3>
 
 				<p>My name is Janet(Chien-Ling, Liao), a student majoring in Sociology. Since I was young, I have had a broad interest and have aspired to be a well-rounded person. During times in university and working, I have gained knowledge of various fields and found a lack of expertise in Business. Also, I have a massive enthusiasm for different cultures and languages.</p>
-				<br>
-
 		</div>
 		<div class="row">
+
+			<div class="scdbody right">
+
+			<h3>Skills</h3>
+			<ul>
+				<li>TOEIC 920</li>
+				<li><abbr title="Test of Proficiency in Korean (From level 1 to 6)">TOPIK</abbr> level 4</li>
+				<li>Graphic design</li>
+				<li>SPSS</li>
+				<li>Power Bi</li>
+			</ul>
+			<h3> Experience</h3>
+			<ul>
+				<li>Currently study in Sociology, <abbr title="National Taipei University">NTPU</abbr></li>
+				<li>2021 <abbr title="Institute of Higher Education Mechatronics Innovation & Creative Intelligence">IHEMI & CI</abbr> Practice Competition Key Vision Design</li>
+				<li>2021 <abbr title="Minchuen Electrical Machinery Co., Ltd.">MCN</abbr> x <abbr title="Feng Chia University">FCU</abbr> Competition Team Logo Design</li>
+				<li>2021 Wego Management Consulting Firm CIS Design</li>
+				<li>2020 <abbr title="Institute of Higher Education Mechatronics Innovation & Creative Intelligence">IHEMI & CI</abbr> Practice Competition Key Vision Design</li>
+				<li>2020 <abbr title="Taiwanese Sociology Asscoiation">TSA</abbr> Annual meeting Key Vision Design</li>
+				<li>2019 <abbr title="Taiwanese Sociology Asscoiation">TSA</abbr> Annual meeting Key Vision Design</li>
+				<li>JUL,2019~ JUL,2021 科技溝通 Project Assistant</li>
+				<li>JUN,2019~ SEP,2019 UCLA Visiting Student</li>
+			</ul></div>
+		</div>
+
+		<div class="row">
 			<div class="footer left">
-				<p><b>/ E-mail / </b><a href="mailto:s410774225@gm.ntpu.edu.tw">s410774225@gm.ntpu.edu.tw</a></p>
-				<p><b>/ Social Media /</b></p>
+				<p id="contact_info"><b>/ E-mail / </b><a href="mailto:s410774225@gm.ntpu.edu.tw">s410774225@gm.ntpu.edu.tw</a></p>
+				<p><b>/ Social Media /</b> Not availible</p>
 			</div>
 
 			<div class="footer middle">
 				<p><b>/ Layout Inspiration / </b> <a href="https://zh.wix.com/website-template/view/html/2846?siteId=9dabe0d0-1603-4a04-9bd6-7d9d9ca9e9cb&metaSiteId=3e8b1a18-1c30-41cf-87ac-e18816787ea8&originUrl=https%3A%2F%2Fzh.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fportfolio-cv&tpClick=view_button">Nicol Rider@ Wix</a></p>
 
-				<p><b>/ Code Reference /</b> Class Examples & w3schools</p>			
+				<p><b>/ Code Reference /</b> <abbr title="110-1 Introduction to web programming">Class Examples</abbr> & <a href="https://www.w3schools.com">w3schools</a></a></p>			
 			</div>
 
 			<div class="footer right">
 				<p><b>© 2021 By Chien-Ling, Liao</b></p>
-				<p>For Web Programming Class Midterm</p>			
+				<p><abbr title="110-1 Introduction to web programming">For Web Programming Class Midterm</abbr></p>			
 			</div>
 		</div>
 
-		<i class="fab fa-facebook-square"></i>
+
 	</body>
 
 </html>
